@@ -1,5 +1,9 @@
 import { parseCsv } from "./deps.ts";
 
+/*
+v0.2
+*/
+
 export const fetchCSV = async (url: string, encoding = 'utf-8', seperator = ',') => {
     const decoder = new TextDecoder(encoding)
     const file = await (await fetch(url)).arrayBuffer();
