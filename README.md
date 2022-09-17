@@ -2,6 +2,7 @@
 A simple third-party module to fetch &amp; parse a csv file.
 
 Default encoding: 'utf-8'
+
 Default seperator: ','
 
 
