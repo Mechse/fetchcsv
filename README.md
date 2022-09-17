@@ -7,7 +7,7 @@ Default seperator: ','
 
 
 ```
-import { fetchCSV } from '';
+import { fetchCSV } from 'https://deno.land/x/fetchcsv';
 
 const data = await fetchCSV(url, encoding, seperator);
 ```
